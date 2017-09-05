@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Portfolio</a>
+        </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li class="active"><a href="contactinfo.html">Contact Info.</a></li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Contact Information</h1>
+          <p>Please don't hesitate to contact me for more information about my work.</p>
+          </div>
+
+        </div>
+      <div class="container">
+        <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-5">
+          <form class="form-horizontal" name="contactform" enctype="text/plain" method="get" action="mailto:joel.henry.thompson@gmail.com">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="name">Name:</label>
+              <div class="col-sm-10">
+                <input type="name" class="form-control" name="first_name"id="name" placeholder="Enter name...">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="subject">Subject:</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter subject...">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="email">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Enter email...">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="message">Message:</label>
+              <div class="col-sm-10">
+                <textarea class="form-control" name="body" id="body" maxlength="500" rows="3" placeholder="Enter message here..."></textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                  <label><input type="checkbox"> Remember me</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default" value="send">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-5">
+          <p>I am avaliable Monday - Friday from 9.30am to 6.30pm.</p>
+          <p>36 Woodside Gardens, <br>
+          Chingford, <br>
+          London</p>
+          <p>Email: joel.henry.thompson@gmail.com</p>
+          <p>Phone: 07807596740</p>
+        </div>
+        <div class="col-sm-1">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

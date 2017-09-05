@@ -3,6 +3,7 @@
   <head>
     <title>Portfolio</title>
     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- jQuery library -->
@@ -12,6 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
   <body>
+    <div class="container">
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -22,21 +24,83 @@
             <li class="active"><a href="skills.html">Skills</a></li>
             <li><a href="education.html">Education</a></li>
             <li><a href="projects.html">Projects</a></li>
+            <li><a href="contactinfo.html">Contact Info.</a></li>
           </ul>
         </div>
 
       </nav>
+    </div>
       <div class="container">
-        <div class="text-center">
-          <div class="col-sm-4">
-            <img src="croatiame.jpg" class="img-rounded" alt="Picture of me in croatia." width="320px" height="320px">
-          </div>
+
+        <div class="col-sm-4">
+            <div class="text-center">
+              <img src="croatiame.jpg" class="img-rounded" alt="Picture of me in croatia." width="320px" height="320px">
+            </div>
+            <h4>Photoshop</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h4>Dreamweaver</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h4>Visual Studio</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <h4>XCode</h4>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
         </div>
         <div class="col-sm-8">
-          <h1>My Skills</h1>
-          <p class="lead">Having just graduated with a degree in computer science. I have learnt various skills
-          during my degree. I am now proficient in Java, HTML5, CSS3, Javascript, JQuery, Jquery Mobile,
-          </p>
+          <h1>About Myself</h1>
+          <p class="lead">Currently I have just finished my degree in computer science.Also I am working part time
+            at waitrose. Now looking for new opportunities related to my degree that will push me but at the same
+            time be something that I will definitely enjoy.</p>
+          <h3>Skills</h3>
+          <div class="col-sm-3">
+            <div class="card" style="width: 20rem;">
+              <h4 class="card-title">Front End</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-info">Javascript</li>
+                <li class="list-group-item">HTML5</li>
+                <li class="list-group-item list-group-item-info">CSS3</li>
+              </ul>
+            </div>
+
+            <div class="card" style="width: 20rem;">
+              <h4 class="card-title">Back End</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-info">PHP</li>
+                <li class="list-group-item">phpMyAdmin</li>
+                <li class="list-group-item list-group-item-info">MySQL</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2">
+
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width: 20rem;">
+              <h4 class="card-title">Mobile</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-info">JQuery Mobile</li>
+                <li class="list-group-item">Swift</li>
+                <li class="list-group-item list-group-item-info">Java</li>
+              </ul>
+            </div>
+            <div class="card" style="width: 20rem;">
+              <h4 class="card-title">Software Web</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item list-group-item-info">Atom</li>
+                <li class="list-group-item">Codeigniter</li>
+                <li class="list-group-item list-group-item-info">GitHub</li>
+              </ul>
+            </div>
+          </div>
+
+
         </div>
       </div>
   </body>
